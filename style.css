@@ -1,0 +1,70 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Stop Watch Container */
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.stop-watch-container {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    border: none;
+    width: 100px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+/* Start Button */
+.start-btn {
+    background: hsla(110, 100%, 23%, 1);
+    background: linear-gradient(135deg, hsla(110, 100%, 23%, 1) 0%, hsla(188, 78%, 69%, 1) 100%);
+    background: -moz-linear-gradient(135deg, hsla(110, 100%, 23%, 1) 0%, hsla(188, 78%, 69%, 1) 100%);
+    background: -webkit-linear-gradient(135deg, hsla(110, 100%, 23%, 1) 0%, hsla(188, 78%, 69%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#137500", endColorstr="#74DEEE", GradientType=1);
+}
+
+.btn:hover {
+    color: white;
+}
+
+/* Stop Button */
+.stop-btn {
+    background: hsla(0, 100%, 41%, 1);
+    background: radial-gradient(circle, hsla(0, 100%, 41%, 1) 0%, hsla(2, 100%, 24%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(0, 100%, 41%, 1) 0%, hsla(2, 100%, 24%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(0, 100%, 41%, 1) 0%, hsla(2, 100%, 24%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#D00000", endColorstr="#7A0400", GradientType=1);
+}
+
+/* Reset Button */
+.reset-btn {
+    background: hsla(34, 100%, 39%, 1);
+    background: radial-gradient(circle, hsla(34, 100%, 39%, 1) 0%, hsla(52, 100%, 50%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(34, 100%, 39%, 1) 0%, hsla(52, 100%, 50%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(34, 100%, 39%, 1) 0%, hsla(52, 100%, 50%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#C97200", endColorstr="#FFDD00", GradientType=1);
+    color: black;
+}
+
+.timer-container {
+    font-size: 40px;
+    font-weight: bold;
+}
